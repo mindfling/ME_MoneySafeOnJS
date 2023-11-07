@@ -11,9 +11,10 @@
 </head>
 
 <body>
-  <h1 class="visually-hidden">Сохрани свои деньги, зарабатывай и трать их с
-    умом, а мы поможем это контролировать</h1>
+  <h1 class="visually-hidden">Сохрани свои деньги, зарабатывай и трать их с умом, а мы поможем это контролировать</h1>
+  
   <section class="finance ">
+    
     <div class="container">
       <header class="finance__header">
         <img class="finance__logo" src="./img/logo.png" alt="Логотип MoneySafe">
@@ -22,23 +23,20 @@
 
       <form class="finance__form">
         <fieldset class="finance__details">
-          <input class="finance__input finance__input--category" type="text"
-            name="category" list="categoryList" placeholder="Выберите категорию"
-            required>
-
           <datalist id="categoryList">
             <option value="Продукты питания"></option>
             <option value="Транспорт"></option>
             <option value="Жилье"></option>
             <option value="Развлечения"></option>
             <option value="Одежда"></option>
+            <option value="Другое"></option>
+            <option value="И еще что-то..."></option>
           </datalist>
+          <input class="finance__input finance__input--category" type="text" name="category" list="categoryList" placeholder="Выберите категорию" required>
 
-          <input type="number" class="finance__input finance__input--amount"
-            placeholder="Сумма" name="amount" required>
+          <input type="number" class="finance__input finance__input--amount" placeholder="Сумма" name="amount" required>
 
-          <textarea class="finance__description" name="description"
-            placeholder="Описание операции" required></textarea>
+          <textarea class="finance__description" name="description" placeholder="Описание операции..." required></textarea>
         </fieldset>
 
         <fieldset class="finance__balance">

@@ -25,7 +25,10 @@ body {
   font-size: 20px;
   line-height: 1.21;
   color: #000;
-  background: #9fa7ff url("../img/bg.jpg");
+  /* background: #9fa7ff url("../img/bg.tn70.jpg");   */
+  /* background: #9fa7ff url("../img/bg.origdel.jpg"); */
+  background: #9fa7ff;
+  background-image: url(../img/bg.tn70.jpg);
   display: flex;
 }
 
@@ -178,6 +181,7 @@ fieldset {
 
 .report {
   display: none;
+  /* display: block; */
   position: absolute;
   top: 50%;
   left: 50%;
