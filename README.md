@@ -11,3 +11,7 @@ https://www.figma.com/file/T5KdOw6rM5ArzzxMdX0AjC/MoneySafe?node-id=0%3A1&mode=d
 для формирования отчета документа в PDF on JavaScript
 https://www.npmjs.com/package/pdf-puppeteer
 
+
+
+плагин для отчета
+https://github.com/KingSora/OverlayScrollbars
