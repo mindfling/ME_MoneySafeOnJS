@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/style.css" rel="stylesheet">
-  
   <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon32.png">
   <link rel="icon" type="image/png" sizes="43x43" href="/icon/favicon43.png">
@@ -13,28 +11,22 @@
   <link rel="shortcut icon" sizes="16x16" href="icon/favicon.ico" type="image/x-icon">
   <link rel="icon" sizes="32x32" href="icon/favicon32.ico" type="image/x-icon">
   <link rel="icon" type="image/svg+xml" href="icon/favicon.svg">        
-  
   <script src="js/main.js" type="module"></script>
-  
   <title>MoneySafe on JavaScript</title>
 </head>
 
 <body>
   <h1 class="visually-hidden">Сохрани свои деньги, зарабатывай и трать их с умом, а мы поможем это контролировать</h1>
-  
   <section class="finance ">
-    
     <div class="container">
+
       <header class="finance__header">
-        <!-- <img class="finance__logo" src="./img/logo.png" alt="Логотип MoneySafe"> -->
-        <img class="finance__logo" src="./img/logo.svg" alt="Логотип MoneySafe">
-        
-        <figure class=''>
-          <img class='' src='' alt='' width='' height=''/>
-          <figcaption class=''></figcaption>
-        </figure>
-        
-        
+        <picture class="finance__logo logo">
+          <source srcset="./img/logo.svg" type="image/svg+xml">
+          <source srcset="./img/logo.png" type="image/png">
+          <source srcset="./img/logo.webp" type="image/webp">
+          <img class="logo__image" src="./img/logo.png" alt="Логотип MoneySafe">
+        </picture>
         <button class="finance__report">Отчет</button>
       </header>
 
@@ -167,8 +159,5 @@
     </div>
   </section>
 
-
-
 </body>
-
 </html>
